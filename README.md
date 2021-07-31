@@ -1,4 +1,4 @@
-# Vue Web Workshop
+# appv-hackathon
 
 ## Project setup
 ```

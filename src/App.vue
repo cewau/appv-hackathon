@@ -46,7 +46,7 @@
       <v-app-bar-nav-icon v-if="user != null"
                           @click="drawerShown = !drawerShown"/>
       <v-toolbar-title>
-        Cewau's Vue App
+        Espace
       </v-toolbar-title>
     </v-app-bar>
 
@@ -65,7 +65,7 @@ export default Vue.extend({
   data: () => ({
     drawerShown: false,
     user: {
-      name: "Cewau",
+      name: "Esapce",
     }
   }),
   computed: {
@@ -80,6 +80,10 @@ export default Vue.extend({
           name: "Main page",
           route: "/",
           icon: "mdi-file-table-box",
+        }, {
+          name: "Settings page",
+          route: "/settings",
+          icon: "mdi-cog",
         },
       ];
     },

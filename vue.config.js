@@ -9,4 +9,7 @@ module.exports = {
       .use("ts-loader")
       .loader("ts-loader");
   },
+  devServer: {
+    proxy: "https://espace.nush.app"
+  }
 };
