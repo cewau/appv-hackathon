@@ -1,5 +1,11 @@
 # appv-hackathon
 
+Half-completed "hackathon" submission
+
+---
+
+# appv-hackathon
+
 ## Project setup
 ```
 npm install
